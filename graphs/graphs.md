@@ -311,10 +311,10 @@ inverse Ackermann function.
 ```mermaid
 flowchart TD
     A[Connectivity query or merge request] --> B{Operation}
-    B -->|find(x)| C[Follow parent links to root]
+    B -->|Find representative| C[Follow parent links to root]
     C --> D[Compress path so visited nodes point to root]
     D --> E[Return root representative]
-    B -->|union(x, y)| F[Find roots of x and y]
+    B -->|Merge sets| F[Find roots of both nodes]
     F --> G{Roots equal?}
     G -->|Yes| H[Already connected; return false]
     G -->|No| I[Attach smaller tree under larger tree]
