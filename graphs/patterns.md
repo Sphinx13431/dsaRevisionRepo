@@ -1,0 +1,24 @@
+# Graphs — Pattern Mind Map
+
+- **Traversal / Reachability** → BFS / DFS
+- **Connected Components / Islands** → BFS / DFS
+- **Shortest Path (Unweighted)** → BFS
+- **Shortest Path (Weighted, Non-negative)** → Dijkstra
+- **Negative Edge Weights** → Bellman–Ford
+- **All-Pairs Shortest Path** → Floyd–Warshall
+- **Cycle Detection (Undirected)** → DFS / DSU
+- **Cycle Detection (Directed)** → DFS (3-colour states)
+- **Prerequisites / Dependency Ordering** → Topological Sort
+- **Bipartite / Two-Colour Check** → BFS / DFS Colouring
+- **Alternating Colours / Path Rules Depend on Previous Edge** → BFS with multiple states `(node, last_colour)`
+- **Connectivity Queries / Redundant Edges** → DSU (Union-Find)
+- **Minimum Cost to Connect All Nodes** → MST (Kruskal / Prim)
+- **Count Components / Minimum Edges to Connect Graph** → BFS / DFS + component count
+- **Clone Graph** → BFS / DFS + HashMap
+- **All Paths in a Graph** → DFS + Backtracking
+- **Bridges / Articulation Points** → Tarjan's Algorithm
+- **Strongly Connected Components** → Kosaraju / Tarjan
+- **Grid Traversal** → BFS / DFS
+- **Multi-Source Shortest Distance** → Multi-Source BFS
+- **Shortest Path with Constraints (Stops, Parity, Keys, etc.)** → BFS / Dijkstra with expanded states
+- **Use Every Edge Exactly Once** → Eulerian Path / Hierholzer's Algorithm
